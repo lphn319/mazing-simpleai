@@ -128,8 +128,6 @@ if canvas_result.json_data is not None:
                 drawing_mode="point"
             )
 
-
-
 # Nút Run để tìm đường đi sau khi chọn xong điểm
 if st.button('Run'):
     # Kiểm tra nếu điểm đầu và điểm kết thúc có hợp lệ không
@@ -195,4 +193,3 @@ if st.button('Reset'):
         width=630,
         drawing_mode="point"  # Chế độ chọn điểm
     )
-
